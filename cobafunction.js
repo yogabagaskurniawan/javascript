@@ -10,5 +10,7 @@ function tambah () {
 }
 var coba1 = tambah(2,2,2);
 var coba2 = tambah(3,3,3);
-var total = coba1 + coba2;
+var coba3 = tambah(3,3,3);
+
+var total = coba1 + coba2 + coba3;
 console.log(total);
