@@ -22,7 +22,7 @@
 // }
 // console.log(coba(5));
 
-function faktorial(n) {
+var faktorial = function (n) {
     if(n===0) return 1;
     return n*faktorial(n-1);
 }
